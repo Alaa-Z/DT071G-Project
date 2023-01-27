@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{16882E77-63AC-48C3-B686-770FF675E48F}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainPage.xaml">
+    <Files>
+      <File FileName="MainPage.xaml" Line="63" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WeatherApp" expanded="True">
+            <Node name="WeatherApp" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.emulator-5554" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="Android.pixel_5_-_api_33" Xamarin.HotReload.DebuggerTimeoutException.WeatherApp.HideInfoBar="True" />
+</Properties>
