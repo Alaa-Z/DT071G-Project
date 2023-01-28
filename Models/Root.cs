@@ -1,8 +1,11 @@
 ﻿using System;
 using Newtonsoft.Json;
 
+
+//This code is retrieved using 'json2csharp website 
 namespace weatherApp.Models
 {
+    // From this retrieved comment we can see that the base Class is Root 
     // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
     public class City
     {
@@ -31,7 +34,8 @@ namespace weatherApp.Models
     public class List
     {
         public int dt { get; set; }
-        // To convert Time to utc time
+
+        // To convert Unix time to utc time using UtcTimeLibrary 
         public string time => UtcTimeLibrary.UtcTimeStamp.ConvertToUtc(dt);
 
         public Main main { get; set; }
@@ -115,7 +119,8 @@ namespace weatherApp.Models
         public string main { get; set; }
         public string description { get; set; }
         public string icon { get; set; }
-        // To bring the images from OpenWeather API 
+
+        // To bring the images from OpenWeather API using the icon property
         public string satndardImg => string.Format("https://openweathermap.org/img/wn/{0}@2x.png",icon);
     }
 

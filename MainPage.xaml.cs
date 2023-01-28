@@ -56,7 +56,7 @@ public partial class MainPage : ContentPage
 		// Get the the imgage dynamicly 
 		weatherImg.Source = result.list[0].weather[0].satndardImg;
 
-        // Iterate through the list in the api and add the values to WeatherList
+        // Iterate through the list in the response and add the values to WeatherList
         foreach (var element in result.list)
         {
             WeatherList.Add(element);

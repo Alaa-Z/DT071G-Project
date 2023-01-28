@@ -3,10 +3,16 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0580010D-1F7F-43BF-ACE3-591E67817E9F" Xamarin.HotReload.DebuggerTimeoutException.WeatherApp.HideInfoBar="True" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainPage.xaml.cs">
     <Files>
-      <File FileName="MainPage.xaml" Line="63" Column="1" />
+      <File FileName="MainPage.xaml" Line="134" Column="40" />
+      <File FileName="MainPage.xaml.cs" Line="70" Column="59" />
+      <File FileName="Services/ApiServices.cs" Line="14" Column="38" />
+      <File FileName="Models/Root.cs" Line="123" Column="76" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,15 +27,14 @@
                 <Node name="Images" expanded="True" />
               </Node>
               <Node name="Services" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.emulator-5554" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="Android.pixel_5_-_api_33" Xamarin.HotReload.DebuggerTimeoutException.WeatherApp.HideInfoBar="True" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0580010D-1F7F-43BF-ACE3-591E67817E9F" />
 </Properties>
